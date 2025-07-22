@@ -4,7 +4,7 @@ import { Box, Typography, Paper } from "@mui/material";
 export default function Experience() {
   const experiences = [
     {
-      title: "Software Development Intern",
+      title: "Software Developer Intern",
       company: "Scube Innovations",
       location: "Leander, Texas",
       period: "February 2025 – Present",
