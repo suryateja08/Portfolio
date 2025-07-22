@@ -8,11 +8,9 @@ import {
   CardMedia,
   IconButton,
   Fade,
-  Button,
 } from '@mui/material';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
 
 const projects = [
@@ -21,28 +19,28 @@ const projects = [
     title: "Machine learning-based credit score classifier",
     description: "Designed and implemented a machine learning model to classify customer credit scores into 'Good,' 'Standard,' and 'Poor' categories, achieving an 88% accuracy using Random Forest and ensemble learning techniques. Developed a real-time Flask web application for instant credit score predictions.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&auto=format", // Financial/data analytics themed
-    githubLink: "https://github.com/suryateja08/projects/tree/main/credit-score-classifier",
+    githubLink: "https://github.com/suryateja08/projects/tree/main/Machine%20Learning-Based%20Credit%20Score%20Classifier",
   },
   {
     id: 2,
     title: "US software engineering job's analysis",
     description: "Developed a machine learning model to classify salary ranges for software engineering roles in the US. Implemented and compared four ML algorithms—KNN, Logistic Regression, Decision Tree, and Random Forest—achieving 15% improvement in classification accuracy with Random Forest.",
     image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=300&fit=crop&auto=format", // Data analysis/charts themed
-    githubLink: "https://github.com/suryateja08/projects/tree/main/us-jobs-analysis",
+    githubLink: "https://github.com/suryateja08/projects/tree/main/US%20Software%20Engineering%20Job's%20Analysis",
   },
   {
     id: 3,
     title: "Vehicle rental management system",
     description: "Designed and developed a responsive Vehicle Rental Management System using the MERN stack (MongoDB, Express, React, Node.js). Features include secure Stripe payment processing, Redux state management, and role-based dashboards for admin and users.",
     image: "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=400&h=300&fit=crop&auto=format", // Car rental/automotive themed
-    githubLink: "https://github.com/suryateja08/projects/tree/main/vehicle-rental-system",
+    githubLink: "https://github.com/suryateja08/projects/tree/main/Vehicle%20Rental%20Management%20System",
   },
   {
     id: 4,
     title: "Movement detection using OpenCV",
     description: "Created a real-time movement detection system leveraging OpenCV and Python to track and recognize activities from video streams. Applied deep learning models to improve detection accuracy, achieving an 80% increase in recognition precision in dynamic environments.",
     image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=300&fit=crop&auto=format", // Computer vision/AI themed
-    githubLink: "https://github.com/suryateja08/projects/tree/main/movement-detection-opencv",
+    githubLink: "https://github.com/suryateja08/projects/tree/main/Movement%20detection%20OpenCV",
   },
 ];
 
