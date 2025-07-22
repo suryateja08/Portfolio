@@ -187,7 +187,7 @@ export default function Contact() {
               variant="contained"
               startIcon={<DownloadIcon />}
               component="a"
-              href="/Portfolio/resume.pdf"
+              href={`${process.env.PUBLIC_URL}/resume.pdf`}
               download="Teja_Chennapragada_Resume.pdf"
               sx={{
                 mt: 3,

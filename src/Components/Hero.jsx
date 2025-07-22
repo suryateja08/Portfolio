@@ -96,7 +96,7 @@ export default function Hero() {
         {/* Avatar */}
         <Avatar
           alt="Teja Chennapragada"
-          src="/Portfolio/profile-img.jpg"
+          src={`${process.env.PUBLIC_URL}/profile-img.jpg`}
           sx={{
             width: { xs: 160, md: 200 },
             height: { xs: 160, md: 200 },
@@ -153,7 +153,7 @@ export default function Hero() {
           variant="contained"
           startIcon={<DownloadIcon />}
           component="a"
-          href="/Portfolio/resume.pdf"
+          href={`${process.env.PUBLIC_URL}/resume.pdf`}
           download="Teja_Chennapragada_Resume.pdf"
           sx={{
             backgroundColor: "#1CB5E0",
